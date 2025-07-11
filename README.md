@@ -27,8 +27,9 @@ This console application converts a given HTML string to a PDF file using [IronP
 ### 1. Clone or download the repository
 
 ```bash
-git clone https://github.com/your-repo/html-to-pdf-emailer.git
+git clone https://github.com/shubhamsky/SampleEmailWithHtml2Pdf.git
 cd html-to-pdf-emailer
+
 ```
 
 ### 2. Install IronPDF via NuGet
