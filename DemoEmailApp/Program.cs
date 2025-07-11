@@ -21,7 +21,9 @@ class Program
         // 2. Convert HTML to PDF
         // Create a new instance of the ChromePdfRenderer class.
         // This class is used to render HTML content to a PDF file.
+
         var renderer = new ChromePdfRenderer();
+
         // Use the renderer to convert a simple HTML string into a PDF document.
         // The RenderHtmlAsPdf method takes an HTML string as an argument and renders it as a PDF.
         var pdfDocument = renderer.RenderHtmlAsPdf(htmlContent);
